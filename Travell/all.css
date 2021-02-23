@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html,body{
+    height: 100vh;
+    width: 100%;;
+    font-family: 微軟正黑體;
+    margin: 0 auto;
+    background-color: rgb(247, 247, 247);
+    
+  }
+
+/* box-sizing設定 */
+
+.hero{
+    background-image: url(https://upload.cc/i1/2021/01/25/ig9Oef.png);
+    background-size:cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:380px;
+    color:white;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+}
+.hero h1{
+    position: relative;
+    font-size:43px;
+    top:15%;
+    font-weight:bold;
+}
+.select{
+    text-align: center;
+    padding: 10px;
+    width: 40%;
+    position:relative;
+    top:40%;
+    border: 2px solid black;
+    opacity: 0.6; 
+    font-weight: bold;
+}
+.hotLocal{
+    
+    width: 50%;
+    background:white;
+    position: relative;
+    padding:20px;
+    top:65%;
+    margin: auto;
+    box-shadow: 0 0 5px 1px  rgba(172, 171, 171, 0.701);
+}
+.hotLocal h5{
+    color:black;
+    font-weight: bold;
+}
+.btn{
+    width: 23%;
+    padding: 8px;
+    margin-right:1%;
+    
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    color:white;
+    font-weight:bold;
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+    
+    transform:scale(0.8);
+    
+}
+.purple{
+    background: purple;
+}
+.pink{
+    background: blue;
+
+}
+.green{
+    background: greenyellow;
+}
+.gold{
+    background: gold;
+}
+.content{
+    padding-top: 100px;
+    max-width: 1060px;
+    margin: auto;
+    
+    
+}
+
+.content h2{
+    margin-top:20px;
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.card{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    
+}
+.cardlist{
+    width: 45%;
+    height: 222px;
+    box-shadow: 0 0 5px 1px  rgba(172, 171, 171, 0.701);
+    margin: auto;
+    margin-bottom: 3%;
+    position: relative;
+    
+}
+.cardlist p{
+    
+    font-size: 11px;
+    line-height: 1.2;
+    padding:4px;
+}
+.photo{
+    height: 140px;
+    
+    background-position: center;
+    background-size: cover;
+}
+.photo h4{
+    color:white;
+    position: absolute;
+    top:45%;
+    left:7%;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+.photo p{
+    color:white;
+    position: absolute;
+    top:44%;
+    left:77%;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.pageList a{
+    display: block;
+    color:black;
+    padding:12px;
+    border:2px solid black;
+    border-radius: 50%;
+    width: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8px;
+    font-size: 10px;
+    font-weight: bold; 
+    margin-left: 10px; 
+}
+.disabled{
+    display: block;
+    color: #6c757d;
+    padding:12px;
+    border:2px solid #6c757d;;
+    border-radius: 50%;
+    width: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8px;
+    font-size: 10px;
+    font-weight: bold; 
+    margin-left: 10px; 
+}
+.pageList.active a{
+    background:black;
+    color:white;
+}
+.pageList a:hover{
+    background: black;
+    color:white;
+}
+.pageList a:hover{
+border-bottom:2px solid black
+}
+.footer{
+    background: red;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
